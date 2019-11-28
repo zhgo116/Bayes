@@ -63,6 +63,6 @@ public class Bayes {
         double scores = s / score.length;
         System.out.println(((persons / (persons + top250) * scores) + top250 / (persons + top250) * allAvg));
         System.out.println((persons * scores + top250 * allAvg) / (persons + top250));
-        System.out.println("我是dev");
+        System.out.println("我是master");
     }
 }
