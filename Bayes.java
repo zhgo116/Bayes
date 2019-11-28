@@ -64,5 +64,6 @@ public class Bayes {
         System.out.println(((persons / (persons + top250) * scores) + top250 / (persons + top250) * allAvg));
         System.out.println((persons * scores + top250 * allAvg) / (persons + top250));
         System.out.println("我是dev");
+        System.out.println("多写一些呢");
     }
 }
